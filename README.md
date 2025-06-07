@@ -1,37 +1,25 @@
 # Nymo 🌍
 
-<<<<<<< HEAD
-An anonymous hyper-local community platform that enables users to share location-based content with anonymity.
-=======
-**Anonymous hyper-local community platform** - like a digital bulletin board for your neighborhood, but actually cool.
->>>>>>> ea6757e649fc7579d03bd718dac25c241fb0de14
+Anonymous hyper-local community platform - share what's happening around you without the social media drama.
 
 ## What It Does
-Share local updates, recommendations, and random thoughts with people nearby - completely anonymous. No accounts, no tracking, just local community vibes.
+Post local updates, recommendations, and thoughts to people nearby. Completely anonymous, no accounts needed.
 
-## Cool Tech I Used 🚀
-
-**Backend**: Node.js + Express, SQLite, custom ranking algorithm (like Reddit's hot sort), geohashing for location privacy, anonymous sessions
-
-**Frontend**: React 18, Tailwind CSS, Vite, real-time voting, infinite scroll, geolocation API
-
-**Smart Features**: 
-- Intelligent content ranking with time decay
-- Location-aware without storing exact GPS
-- Security-first design with rate limiting
-- Mobile-first responsive UI
+## Tech Stack
+- **Backend**: Node.js, Express, SQLite, custom ranking algorithm
+- **Frontend**: React 18, Tailwind CSS, Vite
+- **Features**: Real-time voting, location-based content, mobile-first design
 
 ## Quick Start
 ```bash
-# Backend
 npm install && npm run db:migrate && npm run db:seed && npm start
-
-# Frontend
 cd client && npm install && npm run dev
 ```
 
-## Why I Built This
-Wanted to solve real community connection without social media noise. The fun challenge was building anonymous + location-aware system, plus implementing a custom ranking algorithm.
+## Key Features
+- Anonymous sessions (no tracking)
+- Smart content ranking with time decay  
+- Geolocation without storing exact coordinates
+- Real-time interactions and infinite scroll
 
-**Architecture**: Clean MVC pattern, RESTful API, optimized database indexing, component-based React, custom hooks for state management.
-
+Built as a full-stack project showcasing modern web development and privacy-first design.
