@@ -1,6 +1,6 @@
 # Nymo
 
-An anonymous hyper-local community platform that enables users to share location-based content without authentication.
+An anonymous hyper-local community platform that enables users to share location-based content with anonymity.
 
 ## Features
 
