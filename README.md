@@ -2,6 +2,8 @@
 
 Anonymous hyper-local community platform - share what's happening around you without the social media drama.
 
+🔗 [**Try it here**](https://nymo.netlify.app/) ✨
+
 ## What It Does
 Post local updates, recommendations, and thoughts to people nearby. Completely anonymous, no accounts needed.
 
