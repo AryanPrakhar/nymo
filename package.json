@@ -2,15 +2,20 @@
   "name": "nymo-mvp",
   "version": "1.0.0",
   "description": "Anonymous hyper-local community platform",
-  "main": "server/index.js",
-  "scripts": {
+  "main": "server/index.js",  "scripts": {
+    "setup": "node scripts/setup.js",
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
     "server:dev": "nodemon server/index.js",
     "client:dev": "cd client && npm run dev",
-    "build": "cd client && npm run build",
+    "build": "echo 'Backend build complete'",
+    "build:client": "cd client && npm run build",
     "start": "node server/index.js",
     "db:migrate": "node server/scripts/migrate.js",
-    "db:seed": "node server/scripts/seed.js"
+    "db:seed": "node server/scripts/seed.js",
+    "db:clear": "node server/scripts/clear.js",
+    "deploy:backend": "railway up",
+    "deploy:frontend": "cd client && netlify deploy --prod --dir=dist",
+    "deploy:full": "npm run build:client && npm run deploy:backend && npm run deploy:frontend"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

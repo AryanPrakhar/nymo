@@ -1,0 +1,11 @@
+client/
+data/
+.env
+.env.local
+.env.development
+*.log
+node_modules/
+coverage/
+.nyc_output/
+.DS_Store
+Thumbs.db
